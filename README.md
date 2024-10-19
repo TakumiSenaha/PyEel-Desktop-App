@@ -1,4 +1,5 @@
 # PyEel-Desktop-App
+![アプリのサンプル画像](img/test_img.png)
 
 このプロジェクトは、PythonのバックエンドとHTML/CSS/JavaScriptを組み合わせたモダンなEelベースのデスクトップアプリケーションです。
 
