@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "service_types",
+    "service_types": {
+      "2-bus-day": [
+        {"stop": "南大沢", "departure_times": ["08:00", "09:00", "10:00"]},
+        {"stop": "日野", "departure_times": ["08:30", "09:30", "10:30"]}
+      ],
+      "3-bus-day-full": [
+        {"stop": "南大沢", "departure_times": ["07:30", "08:30", "09:30"]},
+        {"stop": "日野", "departure_times": ["08:00", "09:00", "10:00"]}
+      ],
+      "holiday": []
+    }
+  },
+  {
+    "_id": "dates",
+    "dates": {
+      "2024-02-01": "2-bus-day",
+      "2024-02-02": "3-bus-day-full",
+      "2024-02-03": "holiday"
+    }
+  }
+]
