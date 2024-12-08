@@ -8,7 +8,9 @@ services:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
-      - ./db/init_data.json:/docker-entrypoint-initdb.d/init_data.json
+      - ./db/timetable_data.json:/docker-entrypoint-initdb.d/timetable_data.json
+      - ./db/date.json:/docker-entrypoint-initdb.d/date.json
+
 
   mongo-express:
     image: mongo-express

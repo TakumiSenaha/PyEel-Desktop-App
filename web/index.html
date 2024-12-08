@@ -14,13 +14,20 @@
 
     <h1>バス時刻表</h1>
     <input type="date" id="date" />
-    <input type="text" id="stop" placeholder="停留所名を入力" />
+
+    <label for="stop">バス停:</label>
+    <select id="stop">
+        <option value="南大沢キャンパス東">南大沢キャンパス東</option>
+        <option value="南大沢キャンパス西">南大沢キャンパス西</option>
+        <option value="日野キャンパス">日野キャンパス</option>
+    </select>
+
     <button onclick="showTimetable(document.getElementById('date').value, document.getElementById('stop').value)">時刻表を取得</button>
     <pre id="timetable"></pre>
 
     <h2>全時刻表データ（デバッグ用）</h2>
     <button onclick="showAllTimetables()">全時刻表を表示</button>
-    <pre id="all-timetables"></pre> <!-- 全データ表示用 -->
+    <pre id="all-timetables"></pre>
 
     <script src="script.js"></script>
 </body>
